@@ -13,13 +13,14 @@
   background: white;
   padding: 20px 20px 10px 10px;
 }
-#window2{
-margin: 2vh 25vw 1vh 0; */
-min-width: 300px;
-background: #d1d1aa;
-border-radius: 3px;
-max-height: 2000px;
-padding: 1vh 1vw 1vh 1vw;
+  #window2{
+  margin: 2vh 25vw 1vh 0; */
+  min-width: 300px;
+  background: #ECF1F5;
+  border-radius: 3.2px;
+  border-color: inherit;
+  max-height: 2000px;
+  padding: 1vh 1vw 1vh 1vw;
 }
 
 #body h3{
@@ -43,8 +44,8 @@ padding: 1vh 1vw 1vh 1vw;
   border-collapse: collapse;
 }
  #myTable th{
-  background-color: #FCF3CF ;
-  border: 1px solid black;
+  background-color: #D3D3D3 ;
+  border: 1px solid #C4CCD3;
   padding: 2px;
   width: 12em;
   text-align: left;
@@ -52,11 +53,11 @@ padding: 1vh 1vw 1vh 1vw;
   font-size: 1vw;
 }
 #myTable td {
- border: 1px solid black;
- padding: 2px;
- height: 60px;
- font-family: sans-serif;
- font-size: 1.0vw
+   border: 1px solid #C4CCD3;
+   padding: 2px;
+   height: 60px;
+   font-family: sans-serif;
+   font-size: 1.0vw
 
 }
 
@@ -70,10 +71,34 @@ padding: 1vh 1vw 1vh 1vw;
   padding: 5px;
   font-weight: bold;
   display: inline-block;
-  margin: 8vh 0 0  50vw;
+  margin: 8vh 0 0  42vw;
 
 }
 #button2{
+  background-color: #C02E0F;
+  border: none;
+  color:white;
+  font-size: 1.0vw;
+  border-radius: 3px;
+  font-family: sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.5vw;;
+}
+#button3{
+  background-color: #C02E0F;
+  border: none;
+  color:white;
+  font-size: 1.0vw;
+  border-radius: 3px;
+  font-family: sans-serif;
+  padding: 5px;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 0.2vw;;
+}
+#button4{
   background-color: #C02E0F;
   border: none;
   color:white;

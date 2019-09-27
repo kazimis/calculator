@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -7,14 +8,13 @@
     <script type="text/javascript" src="calculator.js"></script>
   </head>
   <body id = "body" style = "background-color:#C02E0F">
-
     <div id="window1">
       <h2> Grade Calculator</h2>
       <div id="window2">
         <h3>Activities</h3>
         <p1>Give grades to the numeric activities:</p1>
         <table id="myTable">
-          <tr id = "r1">
+          <tr id = "1">
             <th>Name</th>
             <th> Short Name </th>
             <th>Weight</th>
@@ -22,7 +22,7 @@
             <th> Percent</th>
           </tr>
 
-          <tr id = "r2">
+          <tr id = "2">
             <td>Activity 1</td>
             <td>A1</td>
             <td><input onkeyup="getPercentage(2)"type="text" class = "textbox" id="weight2" value=""></td>
@@ -31,7 +31,7 @@
             <td></td>
           </tr>
 
-          <tr id = "r3">
+          <tr id = "3">
             <td>Activity 2</td>
             <td>A2</td>
             <td><input onkeyup="getPercentage(3)" type="text" class = "textbox" id="weight3" value=""></td>
@@ -39,7 +39,7 @@
             <input onkeyup="getPercentage(3)"type="text" class = "textbox" id="outOf3" value=""></td>
             <td></td>
           </tr>
-          <tr id = "r4">
+          <tr id = "4">
             <td>Activity 3</td>
             <td>A3</td>
             <td><input onkeyup="getPercentage(4)"type="text" class = "textbox" id="weight4" value=""></td>
@@ -47,7 +47,7 @@
             <input onkeyup="getPercentage(4)"type="text" class = "textbox" id="outOf4" value=""></td>
             <td></td>
           </tr>
-          <tr id = "r5">
+          <tr id = "5">
             <td>Activity 4</td>
             <td>A4</td>
             <td><input onkeyup="getPercentage(5)"type="text" class = "textbox" id="weight5" value=""></td>
@@ -57,11 +57,10 @@
         </table>
           <p2 id = p2> Result <output id ="result" for=""></output></p2>
           <button onclick="weightedAverage()"class = "button" id = "button1" type="button">WEIGHTED</button>
-          <button onclick="addRow()" class ="button" id = "button2" type="button">MEAN</button>
+          <button onclick= "average()" class ="button" id = "button2" type="button">MEAN</button>
+          <button onclick="addRow()" class ="button" id = "button3" type="button">ADD ROW</button>
+          <button onclick="reset()" class ="button" id = "button4" type="button">RESET</button>
       </div>
     </div>
-
   </body>
-
-
 </html>
